@@ -4,8 +4,23 @@ A tutorial on using EKS with fargate on the AWS Cloud
 
 ## Build a Fargate App
 
-1.  Install `kubectl` and `eksctl`.  You can [follow instructions here](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html).
-2.  Open up either AWS CloudShell or AWS Cloud9
-3.  Create a cluster at the terminal `eksctl create cluster --name FargateExploration --region us-east-2 --fargate` (Takes a few minutes) 
-4.  Verify the cluster:  `aws eks describe-cluster --name FargateExploration --query cluster.resourcesVpcConfig.clusterSecurityGroupId`
+*  Install `kubectl` and `eksctl`.  You can [follow instructions here](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html).
+*  Open up either AWS CloudShell or AWS Cloud9
+*  Create a cluster at the terminal `eksctl create cluster --name FargateExploration --region us-east-2 --fargate` (Takes a few minutes) 
+
+You will see output similar to this
+
+```bash
+2021-02-17 17:52:07 [ℹ]  waiting for CloudFormation stack "eksctl-FargateExploration-cluster"
+2021-02-17 17:52:28 [ℹ]  creating Fargate profile "fp-default" on EKS cluster "FargateExploration"
+```
+
+
+*   Verify the cluster:  `aws eks describe-cluster --name FargateExploration --query cluster.resourcesVpcConfig.clusterSecurityGroupId` (or leave off the query and get entire description)
+
+
+### References
+
+* [Fargate-AWS](https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-two/)
+
 
