@@ -1,6 +1,7 @@
 # eks-fargate-tutorial
 A tutorial on using EKS or ECS with fargate on the AWS Cloud
 
+![fargate](https://user-images.githubusercontent.com/58792/108281010-ffeb5c80-714c-11eb-9426-d38ac57986f7.png)
 
 ## Build a Fargate App
 
