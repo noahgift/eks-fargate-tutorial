@@ -22,5 +22,5 @@ You will see output similar to this
 ### References
 
 * [Fargate-AWS](https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-two/)
-
+* [Python-Fargate-AWS](https://github.com/aws-samples/aws-modern-application-workshop/tree/python/module-2)
 
