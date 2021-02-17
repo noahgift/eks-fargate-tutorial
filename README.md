@@ -1,5 +1,5 @@
 # eks-fargate-tutorial
-A tutorial on using EKS with fargate on the AWS Cloud
+A tutorial on using EKS or ECS with fargate on the AWS Cloud
 
 
 ## Build a Fargate App
@@ -17,6 +17,15 @@ You will see output similar to this
 
 
 *   Verify the cluster:  `aws eks describe-cluster --name FargateExploration --query cluster.resourcesVpcConfig.clusterSecurityGroupId` (or leave off the query and get entire description)
+
+* Create ECR Repo:
+
+![change-machine](https://user-images.githubusercontent.com/58792/108248106-76726500-7121-11eb-8b30-3b6dd38c3853.png)
+
+* ECS is much easier to setup with Fargate:  https://us-east-2.console.aws.amazon.com/ecs/home?region=us-east-2#/firstRun
+
+* When running you can then query the 
+
 
 
 ### References
