@@ -1,5 +1,20 @@
-# eks-fargate-tutorial
+# ecs and eks fargate-tutorial
 A tutorial on using EKS or ECS with fargate on the AWS Cloud
+
+### ECS method
+
+* setup app:  virtualenv + `make all`
+* test app local:  `python app.py`
+* curl it to test:  `curl localhost:8080/change/1/34`
+* create ECR Repo
+* build container
+* push container
+* run docker local:   `docker run -p 8080:8080 changemachine`
+* deploy to fargate
+* test public service
+
+
+### EKS method
 
 
 ## Build a Fargate App
@@ -24,7 +39,7 @@ You will see output similar to this
 
 * ECS is much easier to setup with Fargate:  https://us-east-2.console.aws.amazon.com/ecs/home?region=us-east-2#/firstRun
 
-* When running you can then query the 
+
 
 
 
