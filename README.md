@@ -1,6 +1,8 @@
 # ecs and eks fargate-tutorial or AWS App Runner
 A tutorial on using EKS, ECS with fargate, or AWS App Ruuner on the AWS Cloud
 
+### Verified Deploy with AWS App Runner
+
 ### ECS method
 
 * setup app:  virtualenv + `make all`
