@@ -1,5 +1,5 @@
-# ecs and eks fargate-tutorial
-A tutorial on using EKS or ECS with fargate on the AWS Cloud
+# ecs and eks fargate-tutorial or AWS App Runner
+A tutorial on using EKS, ECS with fargate, or AWS App Ruuner on the AWS Cloud
 
 ### ECS method
 
@@ -38,6 +38,11 @@ You will see output similar to this
 ![change-machine](https://user-images.githubusercontent.com/58792/108248106-76726500-7121-11eb-8b30-3b6dd38c3853.png)
 
 * ECS is much easier to setup with Fargate:  https://us-east-2.console.aws.amazon.com/ecs/home?region=us-east-2#/firstRun
+
+
+### AWS App Runner method
+
+
 
 
 
