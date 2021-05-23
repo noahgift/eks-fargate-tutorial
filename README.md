@@ -42,7 +42,16 @@ You will see output similar to this
 
 ### AWS App Runner method
 
+This repository can easily be converted to an AWS Runner Method in Wizard to the following:
+
+1.  For build do:  `pip install -r requirements.txt`
+2.  To run:  `python app.py`
+3.  For port:  `8080`
+
+
 ![1-aws-app-runner](https://user-images.githubusercontent.com/58792/119260856-bfafd600-bba2-11eb-941e-30c42dff6a16.png)
+![app-service-logs](https://user-images.githubusercontent.com/58792/119261353-fedf2680-bba4-11eb-935e-9c2a837e7cb4.png)
+![deployed-app-service](https://user-images.githubusercontent.com/58792/119261367-0f8f9c80-bba5-11eb-8889-365f4b3ca4c4.png)
 
 
 
